@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\FigurasGeometricas">
+      <UniqueIdentifier>{cb717fad-e990-44e4-ac5c-2c89236421dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FigurasGeometricas">
+      <UniqueIdentifier>{8338ff73-5c1e-426c-b8ef-aa86fcfd3ae3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParteLogica">
+      <UniqueIdentifier>{8758cdd0-9a53-46c4-b347-3f8dc8adf344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParteLogica">
+      <UniqueIdentifier>{efc6afd4-bdaf-4cbf-9ee2-582a48834fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ParteGrafica">
+      <UniqueIdentifier>{2126af23-b98a-4f67-9c20-e1fe12f08c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ParteGrafica">
+      <UniqueIdentifier>{3f06ccb6-e94a-4dbd-beaa-9d35fb1b16cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Object3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Program.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleObject3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ComplexObject3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VBispo.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="VTorre.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="VCavalo.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="VPeao.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="VRainha.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="VRei.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="VTabuleiro.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="Cubo.cpp">
+      <Filter>Source Files\FigurasGeometricas</Filter>
+    </ClCompile>
+    <ClCompile Include="Esfera.cpp">
+      <Filter>Source Files\FigurasGeometricas</Filter>
+    </ClCompile>
+    <ClCompile Include="Cilindro.cpp">
+      <Filter>Source Files\FigurasGeometricas</Filter>
+    </ClCompile>
+    <ClCompile Include="Bispo.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Cavalo.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Peao.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Peca.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainha.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Rei.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Tabuleiro.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Torre.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Vazio.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\ParteLogica</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VVazio.cpp">
+      <Filter>Source Files\ParteGrafica</Filter>
+    </ClCompile>
+    <ClCompile Include="LibGL.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CuboComText.cpp">
+      <Filter>Source Files\FigurasGeometricas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Object3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleObject3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ComplexObject3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VBispo.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="VTorre.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="VCavalo.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="VPeao.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="VRainha.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="VRei.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="VTabuleiro.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="Cubo.h">
+      <Filter>Header Files\FigurasGeometricas</Filter>
+    </ClInclude>
+    <ClInclude Include="Esfera.h">
+      <Filter>Header Files\FigurasGeometricas</Filter>
+    </ClInclude>
+    <ClInclude Include="Cilindro.h">
+      <Filter>Header Files\FigurasGeometricas</Filter>
+    </ClInclude>
+    <ClInclude Include="Bispo.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Cavalo.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Peao.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Peca.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainha.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Rei.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Tabuleiro.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Torre.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Vazio.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\ParteLogica</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VVazio.h">
+      <Filter>Header Files\ParteGrafica</Filter>
+    </ClInclude>
+    <ClInclude Include="LibGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CuboComText.h">
+      <Filter>Header Files\FigurasGeometricas</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
