@@ -20,6 +20,24 @@ Projeto desenvolvido em C++ como trabalho Academico da cadeira de Computação G
 
 ---
 
+---
+
+## ▶️ Executar o jogo sem compilar
+
+Se não quiseres compilar o projeto, podes usar o executável já gerado:
+
+🔗 [Download do executável e DLLs](release-binaries/)
+
+📂 Esta pasta contém:
+- `Xadrez.exe`
+- `freeglut.dll`
+- `OpenAL32.dll`
+- `alut.dll`
+
+⚠️ Garante que todos os ficheiros estão na **mesma pasta** antes de executar o `.exe`.
+
+---
+
 ## 🚀 Instalação
 
 ### 1. Clonar este repositório ou extrair o ZIP
@@ -79,7 +97,32 @@ Para a mesma pasta onde está o teu `Xadrez.exe` (normalmente `Debug/` ou `Relea
 
 ---
 
+## 🛠️ Configuração manual (caso a integração com `vcpkg` não funcione)
+
+Se o Visual Studio não encontrar automaticamente as bibliotecas (`.h` e `.lib`), podes configurar os caminhos manualmente:
+
+1. **Botão direito no projeto → Properties**
+2. Em `Configuration Properties > C/C++ > General > Additional Include Directories` adiciona:
+
+```
+C:\caminho\para\vcpkg\installed\x86-windows\include
+```
+
+3. Em `Linker > General > Additional Library Directories` adiciona:
+
+```
+C:\caminho\para\vcpkg\installed\x86-windows\lib
+```
+
+4. Em `Linker > Input > Additional Dependencies` adiciona (ou confirma):
+
+```
+freeglut.lib;OpenAL32.lib;alut.lib;
+```
+
+---
+
 ![print 1](PrintScreens/print1.png)
-![print 1](PrintScreens/print2.png)
-![print 1](PrintScreens/print3.png)
-![print 1](PrintScreens/print4.png)
+![print 2](PrintScreens/print2.png)
+![print 3](PrintScreens/print3.png)
+![print 4](PrintScreens/print4.png)
