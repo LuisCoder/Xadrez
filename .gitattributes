@@ -1,17 +1,17 @@
-# Auto detect text files and perform LF normalization
+# Normalizar texto como LF no repositório, mas converter para CRLF no Windows
 * text=auto
 
-# Custom for Visual Studio
-*.cs     diff=csharp
+# Tratamento de ficheiros C/C++
+*.c     text
+*.cpp   text
+*.h     text
+*.hpp   text
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+# Evita diffs de ficheiros binários
+*.exe   binary
+*.dll   binary
+*.lib   binary
+*.pdb   binary
+*.png   binary
+*.jpg   binary
+*.zip   binary
