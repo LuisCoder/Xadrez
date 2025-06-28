@@ -20,8 +20,6 @@ Projeto desenvolvido em C++ como trabalho Academico da cadeira de Computação G
 
 ---
 
----
-
 ## ▶️ Executar o jogo sem compilar
 
 Se não quiseres compilar o projeto, podes usar o executável já gerado:
